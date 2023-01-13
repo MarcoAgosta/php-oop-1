@@ -14,5 +14,17 @@ class Movie{
         $this->nationality = $_nationality;
 
     }
+
+    public function getGenre() {
+    
+        return $this->genre;
+    }
+
+    public function creaFrase(){
+
+        $frase="Ciao sono una frase di prova" ;
+
+        return $frase ;
+    }
 }
 ?>
